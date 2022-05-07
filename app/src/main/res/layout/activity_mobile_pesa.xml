@@ -53,7 +53,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etphoneNumber" />
 
     <ImageView
-        android:id="@+id/imgPassword"
+        android:id="@+id/imgPin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -63,7 +63,7 @@
         app:srcCompat="@drawable/ic_baseline_fiber_pin_24" />
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/etPin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -72,7 +72,7 @@
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imgPassword"
+        app:layout_constraintStart_toEndOf="@+id/imgPin"
         app:layout_constraintTop_toBottomOf="@+id/etAmount" />
 
     <Button
@@ -83,7 +83,7 @@
         android:text="send"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etPin" />
 
     <Button
         android:id="@+id/btnCancel"
@@ -93,5 +93,5 @@
         android:layout_marginEnd="40dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etPin" />
 </androidx.constraintlayout.widget.ConstraintLayout>
